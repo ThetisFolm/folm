@@ -17,6 +17,7 @@
 #include <string>
 #include <utility>
 #include <vector>
+#include <endian.h>
 
 class CScript;
 
