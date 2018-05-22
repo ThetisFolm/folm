@@ -1,0 +1,3227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="folm"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/gokhan/Desktop/folm/folm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/gokhan/Desktop/folm/folm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/gokhan/Desktop/folm/folm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/gokhan/Desktop/folm/folm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/gokhan/Desktop/folm/folm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/gokhan/Desktop/folm/folm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/gokhan/Desktop/folm/folm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/gokhan/Desktop/folm/folm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/gokhan/Desktop/folm/folm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/gokhan/Desktop/folm/folm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/gokhan/Desktop/folm/folm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/gokhan/Desktop/folm/folm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/gokhan/Desktop/folm/folm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/gokhan/Desktop/folm/folm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/gokhan/Desktop/folm/folm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="folm">
+				<Option output="/home/gokhan/Desktop/folm/folm/cmake-build-debug/folm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gokhan/Desktop/folm/folm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/compat"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/consensus"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/crypto"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/leveldb/db"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/leveldb/helpers/memenv"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/leveldb/include"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/leveldb/include/leveldb"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/leveldb/port"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/leveldb/port/win"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/leveldb/table"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/leveldb/util"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/primitives"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/qt"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/qt/test"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/script"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/secp256k1/include"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/secp256k1/src"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/java"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/test"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/univalue/include"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/univalue/lib"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/zmq"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/gokhan/Desktop/folm/folm/cmake-build-debug/Makefile&quot;  VERBOSE=1 folm"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/gokhan/Desktop/folm/folm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/gokhan/Desktop/folm/folm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/gokhan/Desktop/folm/folm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="folm/fast">
+				<Option output="/home/gokhan/Desktop/folm/folm/cmake-build-debug/folm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gokhan/Desktop/folm/folm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/compat"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/consensus"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/crypto"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/leveldb/db"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/leveldb/helpers/memenv"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/leveldb/include"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/leveldb/include/leveldb"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/leveldb/port"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/leveldb/port/win"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/leveldb/table"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/leveldb/util"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/primitives"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/qt"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/qt/test"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/script"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/secp256k1/include"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/secp256k1/src"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/java"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/test"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/univalue/include"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/univalue/lib"/>
+					<Add directory="/home/gokhan/Desktop/folm/folm/src/zmq"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/gokhan/Desktop/folm/folm/cmake-build-debug/Makefile&quot;  VERBOSE=1 folm/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/gokhan/Desktop/folm/folm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/gokhan/Desktop/folm/folm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/gokhan/Desktop/folm/folm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/CODE_OF_CONDUCT.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/CONTRIBUTING.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/COPYING">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/INSTALL">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/Makefile.am">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/README.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/autogen.sh">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/build-aux/compile">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/build-aux/config.guess">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/build-aux/config.sub">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/build-aux/depcomp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/build-aux/install-sh">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/build-aux/ltmain.sh">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/build-aux/m4/ax_boost_base.m4">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/build-aux/m4/ax_boost_chrono.m4">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/build-aux/m4/ax_boost_filesystem.m4">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/build-aux/m4/ax_boost_program_options.m4">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/build-aux/m4/ax_boost_system.m4">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/build-aux/m4/ax_boost_thread.m4">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/build-aux/m4/ax_boost_unit_test_framework.m4">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/build-aux/m4/ax_check_compile_flag.m4">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/build-aux/m4/ax_check_link_flag.m4">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/build-aux/m4/ax_check_preproc_flag.m4">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/build-aux/m4/ax_cxx_compile_stdcxx.m4">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/build-aux/m4/ax_gcc_func_attribute.m4">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/build-aux/m4/ax_pthread.m4">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/build-aux/m4/bitcoin_find_bdb48.m4">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/build-aux/m4/bitcoin_qt.m4">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/build-aux/m4/bitcoin_subdir_to_include.m4">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/build-aux/m4/libtool.m4">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/build-aux/m4/ltoptions.m4">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/build-aux/m4/ltsugar.m4">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/build-aux/m4/ltversion.m4">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/build-aux/m4/lt~obsolete.m4">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/build-aux/missing">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/build-aux/test-driver">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/configure.ac">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/README.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/bitrpc/README.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/bitrpc/bitrpc.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/debian/README.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/debian/changelog">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/debian/compat">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/debian/control">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/debian/copyright">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/debian/examples/folm.conf">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/debian/examples/pivx.conf">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/debian/folm-qt.desktop">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/debian/folm-qt.desktop.desktop">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/debian/folm-qt.install">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/debian/folm-qt.lintian-overrides">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/debian/folm-qt.protocol">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/debian/folmd.bash-completion">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/debian/folmd.examples">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/debian/folmd.install">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/debian/folmd.lintian-overrides">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/debian/folmd.manpages">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/debian/gbp.conf">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/debian/manpages/folm-qt.1">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/debian/manpages/folm.conf.5">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/debian/manpages/folmd.1">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/debian/manpages/pivx-qt.1">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/debian/manpages/pivx.conf.5">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/debian/manpages/pivxd.1">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/debian/patches/README">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/debian/patches/series">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/debian/rules">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/debian/source/format">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/debian/watch">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/devtools/README.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/devtools/fix-copyright-headers.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/devtools/github-merge.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/devtools/logprint-scanner.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/devtools/split-debug.sh.in">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/devtools/symbol-check.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/devtools/update-translations.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/folm-qt.pro">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/folmd.bash-completion">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/gitian-build.sh">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/gitian-descriptors/README.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/gitian-descriptors/gitian-aarch64.yml">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/gitian-descriptors/gitian-linux.yml">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/gitian-descriptors/gitian-osx-signer.yml">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/gitian-descriptors/gitian-osx.yml">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/gitian-descriptors/gitian-win-signer.yml">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/gitian-descriptors/gitian-win.yml">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/gitian-keys/serfywerfy-key.gpg">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/init/README.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/init/folmd.conf">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/init/folmd.init">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/init/folmd.openrc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/init/folmd.openrcconf">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/init/folmd.service">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/linearize/README.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/linearize/example-linearize.cfg">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/linearize/linearize-data.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/linearize/linearize-hashes.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/macdeploy/LICENSE">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/macdeploy/README.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/macdeploy/background.svg">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/macdeploy/custom_dsstore.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/macdeploy/detached-sig-apply.sh">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/macdeploy/detached-sig-create.sh">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/macdeploy/fancy.plist">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/macdeploy/macdeployqtplus">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/qos/README.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/qos/tc.sh">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/qt_translations.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/seeds/README.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/seeds/generate-seeds.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/seeds/makeseeds.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/spendfrom/README.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/spendfrom/setup.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/spendfrom/spendfrom.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/test-patches/README.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/testgen/README.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/testgen/base58.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/testgen/gen_base58_test_vectors.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/tidy_datadir.sh">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/verifysfbinaries/README.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/verifysfbinaries/verify.sh">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/contrib/zmq/zmq_sub.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/Makefile">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/README.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/builders/darwin.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/builders/default.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/builders/linux.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/config.guess">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/config.site.in">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/config.sub">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/description.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/funcs.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/hosts/darwin.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/hosts/default.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/hosts/linux.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/hosts/mingw32.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/bdb.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/boost.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/dbus.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/expat.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/fontconfig.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/freetype.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/libICE.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/libSM.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/libX11.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/libXau.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/libXext.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/libevent.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/libxcb.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/miniupnpc.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/native_biplist.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/native_ccache.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/native_cctools.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/native_cdrkit.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/native_comparisontool.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/native_ds_store.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/native_libdmg-hfsplus.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/native_mac_alias.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/native_protobuf.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/openssl.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/packages.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/protobuf.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/qrencode.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/qt.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/qt46.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/xcb_proto.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/xextproto.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/xproto.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/xtrans.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/zeromq.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/packages/zlib.mk">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/patches/native_biplist/sorted_list.patch">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/patches/native_cdrkit/cdrkit-deterministic.patch">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/patches/native_mac_alias/python3.patch">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/patches/qt/aarch32-qmake.conf">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/patches/qt/aarch64-qmake.conf">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/patches/qt/fix-xcb-include-order.patch">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/patches/qt/fix_qt_pkgconfig.patch">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/patches/qt/mac-qmake.conf">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/patches/qt/mingw-uuidof.patch">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/patches/qt/pidlist_absolute.patch">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/patches/xextproto/fix_aarch64_build.patch">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/patches/zeromq/9114d3957725acd34aa8b8d011585812f3369411.patch">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/depends/patches/zeromq/9e6745c12e0b100cd38acecc16ce7db02905e27c.patch">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/Doxyfile">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/README.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/README_osx.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/README_windows.txt">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/REST-interface.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/assets-attribution.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/bitcoin_logo_doxygen.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/bootstrap.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/build-osx.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/build-unix.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/developer-notes.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/dnsseed-policy.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/files.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/gitian-building.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/gitian-building/create_vm_file_location_size.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/gitian-building/create_vm_hard_drive.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/gitian-building/create_vm_hard_drive_file_type.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/gitian-building/create_vm_memsize.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/gitian-building/create_vm_page1.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/gitian-building/create_vm_storage_physical_hard_drive.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/gitian-building/debian_install_10_configure_clock.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/gitian-building/debian_install_11_partition_disks.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/gitian-building/debian_install_12_choose_disk.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/gitian-building/debian_install_13_partition_scheme.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/gitian-building/debian_install_14_finish.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/gitian-building/debian_install_15_write_changes.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/gitian-building/debian_install_16_choose_a_mirror.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/gitian-building/debian_install_17_choose_a_mirror2.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/gitian-building/debian_install_18_proxy_settings.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/gitian-building/debian_install_19_software_selection.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/gitian-building/debian_install_1_boot_menu.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/gitian-building/debian_install_20_install_grub.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/gitian-building/debian_install_21_finish_installation.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/gitian-building/debian_install_2_select_a_language.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/gitian-building/debian_install_3_select_location.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/gitian-building/debian_install_4_configure_keyboard.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/gitian-building/debian_install_5_configure_the_network.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/gitian-building/debian_install_6_domain_name.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/gitian-building/debian_install_6a_set_up_root_password.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/gitian-building/debian_install_7_set_up_user_fullname.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/gitian-building/debian_install_8_set_up_username.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/gitian-building/debian_install_9_user_password.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/gitian-building/network_settings.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/gitian-building/port_forwarding_rules.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/gitian-building/select_startup_disk.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/guide-startmany.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/img/bootstrap1.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/img/bootstrap2.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/img/bootstrap4.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/img/bootstrap5.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/init.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/masternode-budget.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/masternode_conf.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/multiwallet-qt.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/Doxyfile">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/README.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/README_osx.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/README_windows.txt">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/REST-interface.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/assets-attribution.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/bitcoin_logo_doxygen.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/bootstrap.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/build-osx.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/build-unix.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/developer-notes.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/dnsseed-policy.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/files.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/gitian-building.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/gitian-building/create_vm_file_location_size.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/gitian-building/create_vm_hard_drive.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/gitian-building/create_vm_hard_drive_file_type.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/gitian-building/create_vm_memsize.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/gitian-building/create_vm_page1.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/gitian-building/create_vm_storage_physical_hard_drive.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/gitian-building/debian_install_10_configure_clock.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/gitian-building/debian_install_11_partition_disks.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/gitian-building/debian_install_12_choose_disk.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/gitian-building/debian_install_13_partition_scheme.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/gitian-building/debian_install_14_finish.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/gitian-building/debian_install_15_write_changes.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/gitian-building/debian_install_16_choose_a_mirror.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/gitian-building/debian_install_17_choose_a_mirror2.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/gitian-building/debian_install_18_proxy_settings.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/gitian-building/debian_install_19_software_selection.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/gitian-building/debian_install_1_boot_menu.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/gitian-building/debian_install_20_install_grub.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/gitian-building/debian_install_21_finish_installation.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/gitian-building/debian_install_2_select_a_language.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/gitian-building/debian_install_3_select_location.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/gitian-building/debian_install_4_configure_keyboard.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/gitian-building/debian_install_5_configure_the_network.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/gitian-building/debian_install_6_domain_name.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/gitian-building/debian_install_6a_set_up_root_password.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/gitian-building/debian_install_7_set_up_user_fullname.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/gitian-building/debian_install_8_set_up_username.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/gitian-building/debian_install_9_user_password.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/gitian-building/network_settings.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/gitian-building/port_forwarding_rules.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/gitian-building/select_startup_disk.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/guide-startmany.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/img/bootstrap1.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/img/bootstrap2.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/img/bootstrap4.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/img/bootstrap5.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/init.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/masternode-budget.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/masternode_conf.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/multiwallet-qt.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/release-notes.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/release-notes/release-notes-2.1.5.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/release-notes/release-notes-2.1.6.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/release-notes/release-notes-2.1.7.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/release-notes/release-notes-2.2.0.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/release-notes/release-notes-2.2.1.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/release-notes/release-notes-2.3.0.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/release-process.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/swifttx.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/tor.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/translation_process.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/travis-ci.txt">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/unit-tests.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/pivx-doc/zmq.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/precompile_raspi_on_virtual_maschine">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/raspi_headless_compile">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/raspi_masternode_guide">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.10.0.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.3.12.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.3.13.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.3.14.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.3.15.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.3.16.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.3.17.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.3.18.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.3.19.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.3.20.1.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.3.20.2.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.3.20.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.3.21.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.3.22.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.3.23.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.3.24.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.4.0.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.4.1.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.4.2.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.4.3.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.4.4.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.4.5.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.4.6.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.5.0.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.5.1.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.5.2.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.5.3.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.5.4.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.5.5.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.6.0.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.6.1.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.6.2.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.6.3.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.7.0.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.7.1.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.7.2.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.8.0.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.8.1.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.8.2.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.8.3.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.8.4.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.8.5.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.8.6.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.9.1.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.9.2.1.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.9.2.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.9.3.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/bitcoin/release-notes-0.9.4.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/dash/release-notes-0.10.0.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/dash/release-notes-0.11.0.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/dash/release-notes-0.11.1.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/dash/release-notes-0.11.2.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/dash/release-notes-0.12.0.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/dash/release-notes-0.9.0.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/pivx-release-notes/release-notes-2.1.5.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/pivx-release-notes/release-notes-2.1.6.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/pivx-release-notes/release-notes-2.1.7.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/pivx-release-notes/release-notes-2.2.0.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/pivx-release-notes/release-notes-2.2.1.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/pivx-release-notes/release-notes-2.3.0.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-notes/release-notes-1.2.0.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/release-process.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/swifttx.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/tor.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/translation_process.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/travis-ci.txt">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/unit-tests.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/doc/zmq.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/pkg.m4">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/pull-tester/rpc-tests.sh">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/pull-tester/run-bitcoin-cli">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/pull-tester/run-bitcoind-for-test.sh">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/pull-tester/run-bitcoind-for-test.sh.in">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/pull-tester/tests-config.sh">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/pull-tester/tests-config.sh.in">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/rpc-tests/README.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/rpc-tests/bipdersig.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/rpc-tests/conflictedbalance.sh">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/rpc-tests/forknotify.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/rpc-tests/getblocktemplate_longpoll.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/rpc-tests/getblocktemplate_proposals.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/rpc-tests/getchaintips.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/rpc-tests/httpbasics.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/rpc-tests/invalidateblock.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/rpc-tests/keypool.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/rpc-tests/listtransactions.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/rpc-tests/mempool_coinbase_spends.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/rpc-tests/mempool_resurrect_test.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/rpc-tests/mempool_spendcoinbase.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/rpc-tests/netutil.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/rpc-tests/python-bitcoinrpc/bitcoinrpc/__init__.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/rpc-tests/python-bitcoinrpc/bitcoinrpc/authproxy.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/rpc-tests/python-bitcoinrpc/setup.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/rpc-tests/receivedby.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/rpc-tests/reindex.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/rpc-tests/rest.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/rpc-tests/rpcbind_test.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/rpc-tests/send.sh">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/rpc-tests/smartfees.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/rpc-tests/test_framework.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/rpc-tests/txn_doublespend.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/rpc-tests/util.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/rpc-tests/util.sh">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/rpc-tests/wallet.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/rpc-tests/walletbackup.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/rpc-tests/zapwallettxes.sh">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/qa/rpc-tests/zmq_test.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/certs/BitcoinFoundation_Apple_Cert.pem">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/certs/BitcoinFoundation_Comodo_Cert.pem">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/certs/PrivateKeyNotes.md">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/genbuild.sh">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/pixmaps/addressbook16.bmp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/pixmaps/addressbook16mask.bmp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/pixmaps/addressbook20.bmp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/pixmaps/addressbook20mask.bmp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/pixmaps/bitcoin-bc.ico">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/pixmaps/bitcoin.ico">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/pixmaps/bitcoin128.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/pixmaps/bitcoin128.xpm">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/pixmaps/bitcoin16.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/pixmaps/bitcoin16.xpm">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/pixmaps/bitcoin256.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/pixmaps/bitcoin256.xpm">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/pixmaps/bitcoin32.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/pixmaps/bitcoin32.xpm">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/pixmaps/bitcoin64.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/pixmaps/bitcoin64.xpm">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/pixmaps/check.ico">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/pixmaps/favicon.ico">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/pixmaps/nsis-header.bmp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/pixmaps/nsis-wizard.bmp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/pixmaps/send16.bmp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/pixmaps/send16mask.bmp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/pixmaps/send16masknoshadow.bmp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/pixmaps/send20.bmp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/pixmaps/send20mask.bmp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/qt/Info.plist.in">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/qt/extract_strings_qt.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/qt/img/reload.png">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/qt/img/reload.xcf">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/qt/make_spinner.py">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/qt/make_windows_icon.sh">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/qt/protobuf.pri">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/setup.nsi.in">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/share/ui.rc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/Makefile">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/Makefile.am">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/Makefile.qt.include">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/Makefile.qttest.include">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/Makefile.test.include">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/activemasternode.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/activemasternode.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/addressindex.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/addrman.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/addrman.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/alert.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/alert.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/allocators.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/allocators.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/amount.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/amount.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/arith_uint256.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/arith_uint256.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/base58.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/base58.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/bip38.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/bip38.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/bloom.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/bloom.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/chain.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/chain.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/chainparams.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/chainparams.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/chainparamsbase.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/chainparamsbase.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/chainparamsseeds.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/checkpoints.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/checkpoints.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/checkqueue.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/clientversion.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/clientversion.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/coincontrol.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/coins.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/coins.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/compat.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/compat/endian.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/compat/glibc_compat.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/compat/glibc_sanity.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/compat/glibcxx_compat.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/compat/glibcxx_sanity.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/compat/sanity.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/compat/strnlen.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/compressor.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/compressor.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/consensus/consensus.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/consensus/params.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/consensus/validation.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/core_io.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/core_memusage.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/core_read.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/core_write.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypter.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypter.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/aes_helper.c">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/blake.c">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/common.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/cubehash.c">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/echo.c">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/fugue.c">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/gost.c">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/groestl.c">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/hmac_sha256.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/hmac_sha256.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/hmac_sha512.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/hmac_sha512.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/jh.c">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/keccak.c">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/rfc6979_hmac_sha256.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/rfc6979_hmac_sha256.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/ripemd160.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/ripemd160.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/scrypt.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/scrypt.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/sha1.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/sha1.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/sha256.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/sha256.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/sha512.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/sha512.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/skein.c">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/sph_blake.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/sph_cubehash.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/sph_echo.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/sph_fugue.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/sph_gost.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/sph_groestl.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/sph_jh.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/sph_keccak.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/sph_skein.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/crypto/sph_types.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/db.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/db.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/eccryptoverify.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/eccryptoverify.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/ecwrapper.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/ecwrapper.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/folm-cli-res.rc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/folm-cli.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/folm-tx.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/folmd-res.rc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/folmd.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/hash.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/hash.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/init.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/init.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/kernel.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/kernel.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/key.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/key.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/keystore.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/keystore.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/autocompact_test.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/builder.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/builder.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/c.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/c_test.c">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/corruption_test.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/db_bench.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/db_impl.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/db_impl.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/db_iter.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/db_iter.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/db_test.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/dbformat.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/dbformat.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/dbformat_test.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/dumpfile.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/filename.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/filename.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/filename_test.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/leveldb_main.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/log_format.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/log_reader.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/log_reader.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/log_test.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/log_writer.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/log_writer.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/memtable.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/memtable.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/repair.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/skiplist.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/skiplist_test.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/snapshot.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/table_cache.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/table_cache.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/version_edit.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/version_edit.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/version_edit_test.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/version_set.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/version_set.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/version_set_test.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/write_batch.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/write_batch_internal.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/db/write_batch_test.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/doc/bench/db_bench_sqlite3.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/doc/bench/db_bench_tree_db.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/helpers/memenv/memenv.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/helpers/memenv/memenv.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/helpers/memenv/memenv_test.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/include/leveldb/c.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/include/leveldb/cache.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/include/leveldb/comparator.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/include/leveldb/db.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/include/leveldb/dumpfile.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/include/leveldb/env.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/include/leveldb/filter_policy.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/include/leveldb/iterator.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/include/leveldb/options.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/include/leveldb/slice.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/include/leveldb/status.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/include/leveldb/table.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/include/leveldb/table_builder.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/include/leveldb/write_batch.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/issues/issue178_test.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/issues/issue200_test.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/port/atomic_pointer.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/port/port.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/port/port_example.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/port/port_posix.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/port/port_posix.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/port/port_win.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/port/port_win.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/port/thread_annotations.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/port/win/stdint.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/table/block.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/table/block.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/table/block_builder.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/table/block_builder.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/table/filter_block.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/table/filter_block.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/table/filter_block_test.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/table/format.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/table/format.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/table/iterator.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/table/iterator_wrapper.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/table/merger.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/table/merger.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/table/table.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/table/table_builder.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/table/table_test.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/table/two_level_iterator.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/table/two_level_iterator.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/arena.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/arena.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/arena_test.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/bloom.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/bloom_test.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/cache.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/cache_test.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/coding.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/coding.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/coding_test.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/comparator.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/crc32c.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/crc32c.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/crc32c_test.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/env.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/env_posix.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/env_test.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/env_win.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/filter_policy.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/hash.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/hash.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/hash_test.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/histogram.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/histogram.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/logging.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/logging.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/mutexlock.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/options.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/posix_logger.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/random.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/status.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/testharness.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/testharness.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/testutil.cc">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldb/util/testutil.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldbwrapper.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/leveldbwrapper.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/limitedmap.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/main.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/main.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/masternode-budget.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/masternode-budget.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/masternode-payments.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/masternode-payments.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/masternode-sync.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/masternode-sync.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/masternode.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/masternode.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/masternodeconfig.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/masternodeconfig.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/masternodeman.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/masternodeman.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/memusage.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/merkleblock.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/merkleblock.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/miner.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/miner.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/mruset.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/net.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/net.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/netbase.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/netbase.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/noui.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/noui.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/obfuscation-relay.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/obfuscation-relay.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/obfuscation.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/obfuscation.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/pow.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/pow.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/primitives/block.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/primitives/block.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/primitives/transaction.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/primitives/transaction.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/protocol.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/protocol.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/pubkey.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/pubkey.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/addressbookpage.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/addressbookpage.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/addresstablemodel.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/addresstablemodel.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/askpassphrasedialog.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/askpassphrasedialog.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/bip38tooldialog.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/bip38tooldialog.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/bitcoinaddressvalidator.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/bitcoinaddressvalidator.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/bitcoinamountfield.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/bitcoinamountfield.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/bitcoingui.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/bitcoingui.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/bitcoinunits.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/bitcoinunits.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/blockexplorer.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/blockexplorer.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/clientmodel.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/clientmodel.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/coincontroldialog.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/coincontroldialog.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/coincontroltreewidget.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/coincontroltreewidget.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/csvmodelwriter.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/csvmodelwriter.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/editaddressdialog.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/editaddressdialog.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/folm.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/folmstrings.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/guiconstants.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/guiutil.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/guiutil.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/intro.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/intro.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/macdockiconhandler.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/macdockiconhandler.mm">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/macnotificationhandler.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/macnotificationhandler.mm">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/masternodelist.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/masternodelist.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/multisenddialog.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/multisenddialog.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/multisigdialog.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/multisigdialog.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/networkstyle.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/networkstyle.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/notificator.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/notificator.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/obfuscationconfig.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/obfuscationconfig.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/openuridialog.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/openuridialog.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/optionsdialog.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/optionsdialog.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/optionsmodel.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/optionsmodel.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/overviewpage.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/overviewpage.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/paymentrequestplus.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/paymentrequestplus.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/paymentserver.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/paymentserver.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/peertablemodel.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/peertablemodel.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/platformstyle.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/platformstyle.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/qvalidatedlineedit.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/qvalidatedlineedit.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/qvaluecombobox.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/qvaluecombobox.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/receivecoinsdialog.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/receivecoinsdialog.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/receiverequestdialog.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/receiverequestdialog.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/recentrequeststablemodel.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/recentrequeststablemodel.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/rpcconsole.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/rpcconsole.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/sendcoinsdialog.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/sendcoinsdialog.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/sendcoinsentry.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/sendcoinsentry.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/signverifymessagedialog.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/signverifymessagedialog.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/splashscreen.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/splashscreen.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/test/paymentrequestdata.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/test/paymentservertests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/test/paymentservertests.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/test/test_main.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/test/uritests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/test/uritests.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/trafficgraphwidget.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/trafficgraphwidget.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/transactiondesc.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/transactiondesc.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/transactiondescdialog.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/transactiondescdialog.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/transactionfilterproxy.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/transactionfilterproxy.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/transactionrecord.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/transactionrecord.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/transactiontablemodel.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/transactiontablemodel.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/transactionview.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/transactionview.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/utilitydialog.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/utilitydialog.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/walletframe.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/walletframe.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/walletmodel.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/walletmodel.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/walletmodeltransaction.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/walletmodeltransaction.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/walletview.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/walletview.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/winshutdownmonitor.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/qt/winshutdownmonitor.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/random.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/random.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/rest.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/rpcblockchain.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/rpcclient.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/rpcclient.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/rpcdump.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/rpcmasternode-budget.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/rpcmasternode.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/rpcmining.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/rpcmisc.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/rpcnet.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/rpcprotocol.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/rpcprotocol.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/rpcrawtransaction.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/rpcserver.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/rpcserver.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/rpcwallet.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/script/bitcoinconsensus.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/script/bitcoinconsensus.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/script/interpreter.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/script/interpreter.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/script/script.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/script/script.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/script/script_error.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/script/script_error.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/script/sigcache.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/script/sigcache.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/script/sign.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/script/sign.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/script/standard.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/script/standard.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/include/secp256k1.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/bench_inv.c">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/bench_sign.c">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/bench_verify.c">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/ecdsa.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/ecdsa_impl.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/eckey.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/eckey_impl.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/ecmult.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/ecmult_gen.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/ecmult_gen_impl.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/ecmult_impl.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/field.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/field_10x26.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/field_10x26_impl.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/field_5x52.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/field_5x52_asm_impl.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/field_5x52_impl.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/field_5x52_int128_impl.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/field_gmp.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/field_gmp_impl.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/field_impl.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/group.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/group_impl.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/num.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/num_gmp.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/num_gmp_impl.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/num_impl.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/scalar.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/scalar_4x64.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/scalar_4x64_impl.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/scalar_8x32.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/scalar_8x32_impl.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/scalar_impl.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/secp256k1.c">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/testrand.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/testrand_impl.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/tests.c">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/secp256k1/src/util.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/serialize.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/spentindex.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/spork.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/spork.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/streams.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/swifttx.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/swifttx.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/sync.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/sync.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/Checkpoints_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/DoS_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/accounting_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/alert_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/allocator_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/arith_uint256_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/base32_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/base58_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/base64_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/bignum.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/bip32_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/bloom_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/checkblock_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/coins_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/compress_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/crypto_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/getarg_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/hash_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/key_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/main_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/mempool_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/miner_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/mruset_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/multisig_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/netbase_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/pmt_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/rpc_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/rpc_wallet_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/sanity_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/script_P2SH_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/script_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/scriptnum_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/serialize_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/sighash_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/sigopcount_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/skiplist_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/test_folm.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/test_folm.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/timedata_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/transaction_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/uint256_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/univalue_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/util_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/test/wallet_tests.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/threadsafety.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/timedata.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/timedata.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/timestampindex.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/tinyformat.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/txdb.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/txdb.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/txmempool.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/txmempool.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/ui_interface.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/uint256.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/uint256.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/uint512.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/undo.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/univalue/include/univalue.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/univalue/lib/univalue.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/univalue/lib/univalue_escapes.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/univalue/lib/univalue_read.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/univalue/lib/univalue_write.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/univalue/test/unitester.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/util.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/util.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/utilmoneystr.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/utilmoneystr.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/utilstrencodings.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/utilstrencodings.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/utiltime.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/utiltime.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/validationinterface.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/validationinterface.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/version.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/wallet.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/wallet.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/wallet_ismine.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/wallet_ismine.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/walletdb.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/walletdb.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/zmq/zmqabstractnotifier.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/zmq/zmqabstractnotifier.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/zmq/zmqconfig.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/zmq/zmqnotificationinterface.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/zmq/zmqnotificationinterface.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/zmq/zmqpublishnotifier.cpp">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/src/zmq/zmqpublishnotifier.h">
+			<Option target="folm"/>
+		</Unit>
+		<Unit filename="/home/gokhan/Desktop/folm/folm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

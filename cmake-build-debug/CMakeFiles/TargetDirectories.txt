@@ -1,0 +1,3 @@
+/home/gokhan/Desktop/folm/folm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/gokhan/Desktop/folm/folm/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/gokhan/Desktop/folm/folm/cmake-build-debug/CMakeFiles/folm.dir
