@@ -46,6 +46,15 @@ The Folmcore Project is a decentralized peer-to-peer banking financial platform,
 
 
 
+| After Calculated Block | PoS Reward | MN Reward |
+|:-----------|:-----------|:-----------|
+| 1 | `x FLM` | `x/2 FLM` |
+| 2 | `y FLM` | `y FLM` |
+| 3 | `z FLM` | `1,5z FLM` |
+| 4 | `z FLM` | `2z FLM` |
+| 5 | `z/2 FLM` | `1,5z FLM` |
+
+
 Build Folm Wallet
 ----------
 
