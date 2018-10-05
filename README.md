@@ -7,6 +7,7 @@
   href="https://twitter.com/folmcoin"
    data-size="large">
 Follow @folmcoin</a>
+<script type="text/javascript" src="https://twittercounter.com/embed/?username=TheCounter&style=avatar"></script><noscript><a href="https://twitter.com/folmcoin">FolmCoin</a></noscript>
 
 
 
