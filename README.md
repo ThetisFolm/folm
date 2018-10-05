@@ -4,7 +4,8 @@
 
 <a href="https://discord.gg/uDmpSHx"><img src="https://discordapp.com/api/guilds/398369914760593419/embed.png" alt="Discord server" /></a>
 <a class="twitter-follow-button"
-  href="https://twitter.com/folmcoin">
+  href="https://twitter.com/folmcoin"
+   data-size="large">
 Follow @folmcoin</a>
 
 
