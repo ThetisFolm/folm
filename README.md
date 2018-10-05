@@ -5,7 +5,7 @@
 <a href="https://discord.gg/uDmpSHx"><img src="https://discordapp.com/api/guilds/398369914760593419/embed.png" alt="Discord server" /></a>
 
 
-| [Website](https://folm.io) |[Block Explorer](https://explorer.folm.io/) |
+| [Website](https://folmcoin.com) |[Block Explorer](https://explorer.folm.io/) |
 
 Version 3.3.0 is builded for insight api. After some tests it will be released for all operating systems.
 
@@ -13,7 +13,7 @@ Features
 =============
 
 * Folm Coin - Masternode
-* New PHI1612 PoW/MN algorithm thanks for 216k155
+* New PHI1612 PoW/PoS/MN algorithm thanks for 216k155 and Folm Core Team
 * MN Reward
 
 
@@ -26,9 +26,9 @@ The Folmcore Project is a decentralized peer-to-peer banking financial platform,
 | Total Blocks | `8,409,600` |
 | Block Size | `4MB` |
 | Block Time | `120s` |
-| PoW Reward | `30 FLM` |
-| Masternode Requirement | `5,000 FLM` |
-| Masternode Reward | `15 FLM First Year` - `20 FLM Second Year` |
+| PoW Reward | `X FLM` |
+| Masternode Requirement | `Tier1: Tier2: Tier3:` |
+| Masternode Reward | `Y` - `Z` |
 | Port | `53656` |
 | RPC Port | `53654` |
 | Masternode Port | `53656` |
@@ -38,11 +38,11 @@ The Folmcore Project is a decentralized peer-to-peer banking financial platform,
 
 | Year | PoW Reward | MN Reward |
 |:-----------|:-----------|:-----------|
-| 1 | `30 FLM` | `15 FLM` |
-| 2 | `20 FLM` | `20 FLM` |
-| 3 | `10 FLM` | `15 FLM` |
-| 4 | `5 FLM` | `10 FLM` |
-| 5 | `2.5 FLM` | `7.5 FLM` |
+| 1 | `x FLM` | `x/2 FLM` |
+| 2 | `y FLM` | `y FLM` |
+| 3 | `z FLM` | `1,5z FLM` |
+| 4 | `z FLM` | `2z FLM` |
+| 5 | `z/2 FLM` | `1,5z FLM` |
 
 
 
