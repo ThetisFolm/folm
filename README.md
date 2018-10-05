@@ -7,8 +7,7 @@
   href="https://twitter.com/folmcoin"
    data-size="large">
 Follow @folmcoin</a> |
- <script src="//platform-api.sharethis.com/js/sharethis.js#property=5bb71c897283210011cb6068&product=inline-follow-buttons"></script>
- <div class="sharethis-inline-follow-buttons"></div>
+-
 
 | [Website](https://folmcoin.com) |[Block Explorer](https://explorer.folm.io/) |
 
