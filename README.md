@@ -8,6 +8,21 @@
    data-size="large">
 Follow @folmcoin</a> |
 -
+<a class="twitter-follow-button"
+  href="https://folmcoin.com/newblog/news"
+   data-size="large">
+Folm News</a> 
+-
+<a class="twitter-follow-button"
+  href="https://folmcoin.com/newblog/nodehelp"
+   data-size="large">
+Folm Masternode Supporting</a> 
+-
+<a class="twitter-follow-button"
+  href="https://folmcoin.com/newblog/bounties"
+   data-size="large">
+Folm Bounties</a> 
+-
 
 | [Website](https://folmcoin.com) |[Block Explorer](https://explorer.folm.io/) |
 
