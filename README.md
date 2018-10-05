@@ -3,6 +3,10 @@
 "Valuable secure Privacy cryptocurrency"
 
 <a href="https://discord.gg/uDmpSHx"><img src="https://discordapp.com/api/guilds/398369914760593419/embed.png" alt="Discord server" /></a>
+<a class="twitter-follow-button"
+  href="https://twitter.com/folmcoin">
+Follow @folmcoin</a>
+
 
 
 | [Website](https://folmcoin.com) |[Block Explorer](https://explorer.folm.io/) |
